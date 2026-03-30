@@ -258,7 +258,7 @@ CMD ["echo", "Build complete. Run SpamDetectorApp.exe on Windows to launch the G
 git init
 git add .
 git commit -m "Initial commit: SMS Spam Detector AI — Assignment #2"
-git remote add origin https://github.com/YOUR_USERNAME/SpamDetectorAI.git
+git remote add origin https://github.com/taimoor-ai/SpamDetectorApp.git
 git push -u origin main
 ```
 
