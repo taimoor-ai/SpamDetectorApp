@@ -10,11 +10,12 @@
 		<RootNamespace>SpamDetectorApp</RootNamespace>
 		<AssemblyVersion>1.0.0.0</AssemblyVersion>
 		<FileVersion>1.0.0.0</FileVersion>
-		<Company>BS Software Engineering</Company>
+		<Company>BS Computer Science</Company>
 		<Product>SMS Spam Detector AI</Product>
 		<Description>ML.NET-powered SMS spam detection desktop application</Description>
+		<SelfContained>true</SelfContained>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
 	</PropertyGroup>
-
 	<ItemGroup>
 	  <None Remove="Resources\sms_train.csv" />
 	  <None Remove="Resources\sms_train1.csv" />
