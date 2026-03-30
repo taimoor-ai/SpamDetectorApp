@@ -1,7 +1,7 @@
 # 🛡️ SMS Spam Detector AI
 
 > **Assignment #1 — AI-Based Mini Project in .NET**  
-> BS Software Engineering | AI-Based Application Development
+> BS Computer Science | AI-Based Application Development
 
 ---
 
