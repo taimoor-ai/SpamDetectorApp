@@ -1,9 +1,9 @@
 # 🛡️ SMS Spam Detector AI
 
-> **Assignment #2 — AI-Based Mini Project in .NET**  
-> BS Software Engineering | AI-Based Application Development
+> **Assignment #1 — AI-Based Mini Project in .NET**  
+> BS ComputerScience | AI-Based Application Development
 
-![Main Screen](https://github.com/taimoor-ai/SpamDetectorApp/blob/main/SpamDetectorApp/screenShots/idle.png)
+
 
 ---
 
@@ -97,7 +97,7 @@ dotnet run --project SpamDetectorApp/SpamDetectorApp.csproj
 
 The application after launch, model trained and ready for input.
 
-![Main Screen - Idle](docs/screenshots/01_idle_main.png)
+![Main Screen - Idle](https://github.com/taimoor-ai/SpamDetectorApp/blob/main/SpamDetectorApp/screenShots/idle.png)
 
 ---
 
@@ -105,7 +105,7 @@ The application after launch, model trained and ready for input.
 
 Analysing a classic prize-winner spam SMS — detected with **98.2% confidence**.
 
-![SPAM Detection Result](docs/screenshots/02_spam_result.png)
+![SPAM Detection Result](https://github.com/taimoor-ai/SpamDetectorApp/blob/main/SpamDetectorApp/screenShots/spamMessage.png)
 
 ---
 
@@ -113,7 +113,7 @@ Analysing a classic prize-winner spam SMS — detected with **98.2% confidence**
 
 A genuine lunch invitation correctly classified as HAM with **99.1% confidence**.
 
-![HAM Detection Result](docs/screenshots/03_ham_result.png)
+![HAM Detection Result](https://github.com/taimoor-ai/SpamDetectorApp/blob/main/SpamDetectorApp/screenShots/notSpam.png)
 
 ---
 
@@ -121,7 +121,7 @@ A genuine lunch invitation correctly classified as HAM with **99.1% confidence**
 
 Full session log showing 8 predictions with colour-coded SPAM (red) / HAM (green) results.
 
-![History Tab](docs/screenshots/04_history.png)
+![History Tab](https://github.com/taimoor-ai/SpamDetectorApp/blob/main/SpamDetectorApp/screenShots/history.png)
 
 ---
 
@@ -129,17 +129,13 @@ Full session log showing 8 predictions with colour-coded SPAM (red) / HAM (green
 
 Training metrics from 5-fold cross-validation — Accuracy **96.2%**, AUC **98.1%**, F1 **95.8%**.
 
-![Model Info Tab](docs/screenshots/05_model_info.png)
+![Model Info Tab](https://github.com/taimoor-ai/SpamDetectorApp/blob/main/SpamDetectorApp/screenShots/modelInfo.png)
 
 ---
+### 5️⃣ Model Training Tab
+Model Training 
+<img width="900" height="720" alt="06_training" src="https://github.com/user-attachments/assets/a2fb545c-ab5d-450c-bc23-88d01dfa2423" />
 
-### 6️⃣ Model Training in Progress
-
-Live training status shown while the model trains on first launch (~3 seconds).
-
-![Model Training](docs/screenshots/06_training.png)
-
----
 
 ## 🐳 Docker
 
@@ -149,7 +145,7 @@ Live training status shown while the model trains on first launch (~3 seconds).
 docker build -t spam-detector-ai .
 ```
 
-![Docker Build](docs/screenshots/07_docker_build.png)
+![Docker Build](https://github.com/taimoor-ai/SpamDetectorApp/blob/main/SpamDetectorApp/screenShots/dockerImageCreation.png)
 
 ---
 
@@ -160,23 +156,15 @@ docker images spam-detector-ai
 docker run --rm spam-detector-ai
 ```
 
-![Docker Image Verify](docs/screenshots/08_docker_verify.png)
+![Docker Image Verify](https://github.com/taimoor-ai/SpamDetectorApp/blob/main/SpamDetectorApp/screenShots/dockerImageVerification.png)
 
 ---
 
 ### 9️⃣ Running the Application
 
-Full `dotnet run` startup log showing model training and ready state.
+running the Container
 
-![Dotnet Run](docs/screenshots/09_dotnet_run.png)
-
----
-
-## 📁 GitHub Repository
-
-### 🔟 Repository Structure on GitHub
-
-![GitHub Repo](docs/screenshots/10_github_repo.png)
+![Dotnet Run](https://github.com/taimoor-ai/SpamDetectorApp/blob/main/SpamDetectorApp/screenShots/RuningContainer.png)
 
 ---
 
