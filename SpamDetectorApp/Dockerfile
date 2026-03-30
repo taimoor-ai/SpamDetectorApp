@@ -1,16 +1,15 @@
 ﻿# ─────────────────────────────────────────────────────────────────────────────
-# Dockerfile — SMS Spam Detector AI
-# For Windows Forms GUI — uses Windows Server Core
+# Dockerfile — SMS Spam Detector AI (Windows Forms)
 # ─────────────────────────────────────────────────────────────────────────────
 
 # Use Windows Server Core as base image
 FROM mcr.microsoft.com/windows/servercore:ltsc2022
 
-# Set working directory inside the container
-WORKDIR C:\app
+# Set working directory (absolute path, properly escaped)
+WORKDIR C:\\app
 
-# Copy the published .exe and all files from the publish folder
-COPY bin\Release\net8.0-windows\win-x64\publish\ .\
+# Copy published files (use proper backslashes and no trailing dot issues)
+COPY bin\\Release\\net8.0-windows\\win-x64\\publish\\ .
 
 # Labels for documentation
 LABEL maintainer="Taimoor Arshad"
