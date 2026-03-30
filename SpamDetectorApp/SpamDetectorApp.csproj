@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWindowsForms>true</UseWindowsForms>
+		<AssemblyName>SpamDetectorApp</AssemblyName>
+		<RootNamespace>SpamDetectorApp</RootNamespace>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.0</FileVersion>
+		<Company>BS Software Engineering</Company>
+		<Product>SMS Spam Detector AI</Product>
+		<Description>ML.NET-powered SMS spam detection desktop application</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\sms_train.csv" />
+	  <None Remove="Resources\sms_train1.csv" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Resources\sms_train.csv" />
+	  <EmbeddedResource Include="Resources\sms_train1.csv" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- ML.NET core — binary classification pipeline -->
+		<PackageReference Include="Microsoft.ML" Version="3.0.1" />
+		<!-- FastTree algorithm (Gradient Boosted Decision Trees) -->
+		<PackageReference Include="Microsoft.ML.FastTree" Version="3.0.1" />
+	</ItemGroup>
+
+</Project>
