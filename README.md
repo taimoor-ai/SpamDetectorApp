@@ -3,7 +3,7 @@
 > **Assignment #2 — AI-Based Mini Project in .NET**  
 > BS Software Engineering | AI-Based Application Development
 
-![Main Screen](docs/screenshots/01_idle_main.png)
+![Main Screen](https://github.com/taimoor-ai/SpamDetectorApp/blob/main/SpamDetectorApp/screenShots/idle.png)
 
 ---
 
